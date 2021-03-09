@@ -205,18 +205,19 @@ Minecraft 服务器和多 QQ 群之间的复杂分组转发
                     "period": None,
 
                     "content": '''
-<p>我喜欢与他人分享我的技能，我也十分懂得
-向他人学习。我活跃于开源社区，并愿意为我自己
-喜欢的程序提交自己的补丁。因而，我的代码也被
-不少仓库如 Minecraft 常用插件 <a href="https://github.com/webbukkit/dynmap/">Dynmap</a>
-等仓库接受。</p>
+<p>本人习惯与他人分享已掌握的技能，本人也十分懂得
+向他人学习。常活跃于开源社区，并愿意为自己
+喜欢的程序提交补丁。因而，本人也有代码也被
+一些如 Minecraft 常用插件 <a href="https://github.com/webbukkit/dynmap/">Dynmap</a>
+的仓库接受，并运行在不少的设备上。</p>
                     ''',
                     "content_plain": '''
-<p>我喜欢与他人分享我的技能，我也十分懂得
-向他人学习。我活跃于开源社区，并愿意为我自己
-喜欢的程序提交自己的补丁。因而，我的代码也被 
-Dynmap (github/webbukkit/dynmap) 
-等仓库接受。</p>
+<p>本人习惯与他人分享已掌握的技能，本人也十分懂得
+向他人学习。常活跃于开源社区，并愿意为自己
+喜欢的程序提交补丁。因而，本人也有代码也被
+一些如 Minecraft 常用插件 Dynmap 
+(github/webbukkit/dynmap) 的仓库接受，
+并运行在不少的设备上。</p>
 '''
                 },
             ]
