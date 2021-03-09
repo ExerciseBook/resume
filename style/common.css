@@ -2,10 +2,10 @@
  * 页边距
  */
 @page{
-    margin-left: 0.5cm;
-    margin-right: 0.5cm;
-    margin-top: 0.75cm;
-    margin-bottom: 0.75cm;
+    margin-left: min(2vw, 2vh);
+    margin-right: min(2vw, 2vh);
+    margin-top: min(2vw, 2vh);
+    margin-bottom: min(2vw, 2vh);
 }
 
 /**
@@ -101,7 +101,7 @@
 .profile-container span
 {
     display: inline-block;
-    padding-right: 1vw;
+    padding-right: 2vw;
     padding-bottom: 0.75em;
 }
 
@@ -156,7 +156,7 @@
 
 .section-left-padding
 {
-    width: 1vw;
+    width: 2vw;
     max-width: 24;
     height: 1em;
 }
@@ -184,7 +184,7 @@
     
     margin-block-start: 0;
     margin-block-end: 0;
-    padding-inline-start: min(1vw, 24);
+    padding-inline-start: min(2vw, 24);
 }
 
 .section-item ul li p
