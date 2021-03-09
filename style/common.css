@@ -2,10 +2,10 @@
  * 页边距
  */
 @page{
-    margin-left: 1cm;
-    margin-right: 1cm;
-    margin-top: 1cm;
-    margin-bottom: 1cm;
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+    margin-top: 0.75cm;
+    margin-bottom: 0.75cm;
 }
 
 /**

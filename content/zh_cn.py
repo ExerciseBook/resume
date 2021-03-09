@@ -117,25 +117,66 @@ Minecraft 服务器和多 QQ 群之间的复杂分组转发
                     ''',
                     "content_plain": None
                 },
+                {
+
+                    "logo_src": "assets/volcengine-logo.svg",
+                    "logo_alt": "火山引擎 Logo",
+
+                    "title": '<a href="https://www.volcengine.cn/docs/508/67290">火山引擎 ImageX 周边工具</a>',
+                    "title_plain": '''火山引擎 ImageX 周边工具:
+<span>volcengine.cn/docs/508/67290</span>''',
+
+                    "period": None,
+
+                    "content": '''
+<p>火山引擎是字节跳动 ToB 业务的核心平台，本人
+为其中的 ImageX 服务制作了 PHP 扩展，以使得
+使用 FlySystem、Laravel、ThinkPhp 作为开发
+脚手架的原有 PHP 程序能够更快地集成并使用 ImageX 
+平台的服务。</p>
+                    ''',
+                    "content_plain": None
+                },
             ]
         },
         {
-            "title": "其他",
+            "title": "项目经历",
             "list": [
                 {
+                    "logo_src": "assets/xiaobu.png",
+                    "logo_alt": "小布",
 
-                    "logo_src": "assets/chatting.svg",
-                    "logo_alt": "交流",
+                    "title": '<a href="https://system.lib.whu.edu.cn/game2018/web-mobile/index.html">武汉大学图书馆账户激活平台</a>主要协作者',
+                    "title_plain": '''武汉大学图书馆账户激活平台主要协作者<br/>
+<span>https://system.lib.whu.edu.cn/game2018/web-mobile/index.html</span>''',
 
-                    "title": '''CKYU 社区闲聊板块与开发板块板主''',
-                    "title_plain": None,
-
-                    "period": "2018 年 11 月 - 2020 年 08 月",
+                    "period": None,
 
                     "content": '''
-<p>CKYU 社区对汉语聊天机器人的设计与交互模式
-影响深远。在该社区 2020 年 8 月份闭站后依然
-有许多聊天机器人应用保留了 CKYU 形式的程序接口。</p>
+<p>武汉大学图书馆帐号在账户初始化后需要激活才
+能使用图书馆的完整功能。由于本人平日在学科专业
+中的出色表现，受到了图书馆邀请，与几位同学一同
+制作了一个可以让新生在入学后能够自助激活账户的
+平台。该平台的使用反馈良好。</p>
+                    ''',
+                    "content_plain": None
+                },
+                {
+
+                    "logo_src": "assets/mengxiangjia-logo.png",
+                    "logo_alt": "武大梦想珈",
+
+                    "title": '武大梦想珈团队成员',
+                    "title_plain": '武大梦想珈团队成员',
+
+                    "period": "2020 年 9 月至今",
+
+                    "content": '''
+<p>武大梦想珈（微信小程序）是武汉大学学生会制作的
+一款小程序，它可以方便地完成报名、举办活动、计划
+日程等工作，并且还提供了许多便利服务。本人主要
+负责梦想珈中的校内论坛服务的后端开发。该服务
+深受全校师生喜爱。</p>
                     ''',
                     "content_plain": None
                 },
@@ -159,21 +200,25 @@ Minecraft 服务器和多 QQ 群之间的复杂分组转发
                     ''',
                     "content_plain": None
                 },
+            ]
+        },
+        {
+            "title": "其他",
+            "list": [
                 {
 
-                    "logo_src": "assets/xiaobu.png",
-                    "logo_alt": "小布",
+                    "logo_src": "assets/chatting.svg",
+                    "logo_alt": "交流",
 
-                    "title": '<a href="https://system.lib.whu.edu.cn/game2018/web-mobile/index.html">武汉大学图书馆账户激活平台</a>主要协作者',
-                    "title_plain": '''武汉大学图书馆账户激活平台主要协作者<br/>
-<span>https://system.lib.whu.edu.cn/game2018/web-mobile/index.html</span>''',
+                    "title": '''CKYU 社区闲聊板块与开发板块板主''',
+                    "title_plain": None,
 
-                    "period": None,
+                    "period": "2018 年 11 月 - 2020 年 08 月",
 
                     "content": '''
-<p>武汉大学图书馆帐号在账户初始化后需要激活才
-能使用图书馆的完整功能。我和我的同学帮忙制作
-了一个可以让新生在入学后能够自助激活账户的平台。</p>
+<p>CKYU 社区对汉语聊天机器人的设计与交互模式
+影响深远。在该社区 2020 年 8 月份闭站后依然
+有许多聊天机器人应用保留了 CKYU 形式的程序接口。</p>
                     ''',
                     "content_plain": None
                 },
