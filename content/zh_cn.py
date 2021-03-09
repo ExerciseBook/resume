@@ -214,8 +214,8 @@ Minecraft 服务器和多 QQ 群之间的复杂分组转发
                     "content_plain": '''
 <p>我喜欢与他人分享我的技能，我也十分懂得
 向他人学习。我活跃于开源社区，并愿意为我自己
-喜欢的程序提交自己的补丁。因而，我的代码也被
-Dynmap (github/webbukkit/dynmap)
+喜欢的程序提交自己的补丁。因而，我的代码也被 
+Dynmap (github/webbukkit/dynmap) 
 等仓库接受。</p>
 '''
                 },
