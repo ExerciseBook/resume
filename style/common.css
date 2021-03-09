@@ -1,0 +1,226 @@
+/**
+ * 页边距
+ */
+@page{
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+
+/**
+ * 如果窗口太小了那就显示纯文本简历
+ */
+@media all and (max-width : 360px) {
+    .main-container{ 
+        display: none;
+    }
+    
+    .plain-container{ 
+        display: flex;
+    }    
+}
+
+/**
+ * 窗口大一点的话就显示完整的
+ */
+@media all and (min-width : 361px) {
+    .plain-container{ 
+        display: none;
+    }
+}
+
+/**
+ * 设备样式
+ */
+@media print {
+    .only-screen-can-see {
+        display: none !important;
+    }
+}
+
+@media screen, @media speech {
+    .only-print-can-see {
+        display: none !important;
+    }
+}
+
+/**
+ * 标题
+ */
+.title-h1
+{
+    margin: 0;
+}
+ 
+/**
+ * 完整简历容器
+ */
+.main-container
+{
+    margin: auto;
+    max-width : 960px;
+    width : 100%;
+}
+
+/**
+ * 个人基本信息部分
+ */
+.profile-container
+{
+    margin: 0;
+}
+
+.profile-container span
+{
+    display: inline-block;
+    padding-right: 1vw;
+    padding-bottom: 0.75em;
+}
+
+.profile-container span a
+{
+    text-decoration: none;
+    margin: 0;
+}
+
+.profile-container span a:link, .profile-container span a:visited
+{
+    color: var(--text-color);
+    transition: color 0.3s;
+}
+
+@media screen, @media speech {
+    .profile-container span a:hover
+    {
+        color: red;
+        transition: color 0.3s;
+    }
+}
+
+.profile-icon
+{
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    padding-right: 0.25em;
+    margin: 0;
+}
+
+/**
+ * 模块
+ */
+.section-title
+{
+    margin: 0;
+}
+ 
+.section-container
+{
+    display: flex;
+}
+
+.section-left-padding
+{
+    width: 1vw;
+    max-width: 24;
+    height: 1em;
+}
+
+.section-list
+{
+    flex: 1;
+}
+ 
+.section-item-title
+{
+    display: flex;
+    align-items: center;
+}
+
+.section-item
+{
+    padding-bottom: 0.5em;
+}
+
+.section-item ul
+{
+    margin: 0;
+    padding-bottom: 0;
+    
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: min(2em, 24px);
+}
+
+.section-item ul li p
+{
+    padding-left: 0;
+    margin: 0;
+}
+
+.section-item-logo
+{
+    width: 1.75em; 
+    height: 1.75em; 
+    vertical-align: middle;
+    padding-right: 0.25em;
+}
+
+.section-item-title p
+{
+    font-size: 1.25em;
+    margin: 0em;
+    flex: 1;
+}
+
+.section-item-title p span
+{
+    font-size: .8em;
+    margin: 0em;
+}
+
+.section-item-title span
+{
+    padding-right: 1em;
+}
+
+.section-item-content p
+{
+    padding-left: 1em;
+    margin: 0;
+}
+
+.section-item-title p a,
+.section-item-content p a
+{
+    text-decoration: none;
+}
+
+.section-item-title p a:link, .section-item-title p a:visited,`
+.section-item-content p a:link, .section-item-content p a:visited
+{
+    color: var(--text-color);
+}
+
+@media screen, @media speech {
+    .section-item-title p a:hover,
+    .section-item-content p a:hover
+    {
+        color: red;
+        transition: color 0.3s;
+    }
+}
+
+/**
+ * 填充
+ */
+.top-padding
+{
+    height: 2.5vh;
+}
+
+.buttom-padding
+{
+    height: 2.5vh;
+}
