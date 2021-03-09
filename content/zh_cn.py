@@ -41,19 +41,19 @@ content = {
                     "period": "2018 年 8 月至今",
 
                     "content": '''
-<p>主修专业: 计算机科学 (本科),
-预计毕业时间: 2022 年 6 月,
-GPA 3.29 / 4.00</p>
+<p>主修专业：计算机科学（本科）。
+预计毕业时间：2022 年 6 月。
+GPA：3.29 / 4.00。</p>
                     ''',
                     "content_plain": None
                 }
             ]
         },
-        {
-            "title": "工作经历",
-            "list": [
-            ]
-        },
+        # {
+        #     "title": "工作经历",
+        #     "list": [
+        #     ]
+        # },
         {
             "title": "技能",
             "list": [
@@ -63,11 +63,11 @@ GPA 3.29 / 4.00</p>
 <ul>
 <li><p>
 服务端开发：会用常用的网页服务端开发框架的基本功能
-(如：Spring Boot、ASP.Net MVC、Laravel)。
+（如：Spring Boot、ASP.Net MVC、Laravel）。
 </p></li>
 <li><p>
-偏好语言: Kotlin, C#, Java, Javascript,
-Pascal, Delphi。
+偏好语言: Kotlin，C#，Java，Javascript，
+Golang，Pascal，Delphi。
 </p></li>
 </ul>
                     ''',
@@ -92,7 +92,7 @@ Pascal, Delphi。
 <p>一个 Minecraft 服务器和 QQ 群之间的聊天
 消息转发同步工具，并提供了频道隔离功能以支持多 
 Minecraft 服务器和多 QQ 群之间的复杂分组转发
-关系。.</p>
+关系。</p>
                     ''',
                     "content_plain": None
                 },

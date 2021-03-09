@@ -1,16 +1,6 @@
 /**
- * 中文
+ * 英文
  */
- .section-item ul li p
- {
-     text-indent: 0;
- }
-  
- .section-item-content p
- {
-     text-indent: 2em;
- }
-
  .profile-container span a,
  .section-item-title p,
  .section-title

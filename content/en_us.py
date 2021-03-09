@@ -2,7 +2,7 @@ content = {
     "name": "Eric_Lian",
     "title": "Eric_Lian's Resume",
 
-    "extra_style" : None,
+    "extra_style": "en_us.css",
 
     "profile": [
         {
@@ -49,11 +49,11 @@ GPA 3.29 / 4.00</p>
                 }
             ]
         },
-        {
-            "title": "Work Experience",
-            "list": [
-            ]
-        },
+        # {
+        #     "title": "Work Experience",
+        #     "list": [
+        #     ]
+        # },
         {
             "title": "Skills",
             "list": [
@@ -70,7 +70,7 @@ Laravel).
 <li><p>
 Prefer using language: 
 Kotlin, C#, Java, Javascript, 
-Pascal, Delphi.
+Golang, Pascal, Delphi.
 </p></li>
 </ul>
                     ''',
