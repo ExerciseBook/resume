@@ -40,23 +40,23 @@
 
     .section-item-logo
     {
-        width: 1em !important;
-        height: 1em !important;
+        width: 1.25em !important;
+        height: 1.25em !important;
     }
 
     .section-item-title p
     {
-        font-size: 1em !important;
+        font-size: 1.25em !important;
     }
 
     .section-item-title span
     {
-        padding-right: 0.75em !important;
+        font-size: 0.75em !important;
     }
 
     .section-item-content p
     {
-        padding-left: 0.75em !important;
+        font-size: 0.9em !important;
     }    
 }
 
