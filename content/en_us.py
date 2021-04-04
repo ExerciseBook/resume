@@ -43,7 +43,7 @@ content = {
                     "content": '''
 <p>Major: Computer Science (Undergraduate), 
 Anticipated graduation date: 06/2022, 
-GPA 3.29 / 4.00</p>
+GPA 3.33 / 4.00</p>
                     ''',
                     "content_plain": None
                 }
@@ -70,7 +70,7 @@ Laravel).
 <li><p>
 Prefer using language: 
 Kotlin, C#, Java, Javascript, 
-Golang, Pascal, Delphi.
+Pascal, Delphi.
 </p></li>
 </ul>
                     ''',
@@ -120,11 +120,82 @@ chatting robot.</p>
                     ''',
                     "content_plain": None
                 },
+                {
+
+                    "logo_src": "assets/volcengine-logo.svg",
+                    "logo_alt": "VolcEngine Logo",
+
+                    "title": '<a href="https://www.volcengine.cn/docs/508/67290">VolcEngine ImageX PHP Developing Tools</a>',
+                    "title_plain": '''VolcEngine ImageX PHP Developing Tools:
+<span>volcengine.cn/docs/508/67290</span>''',
+
+                    "period": None,
+
+                    "content": '''
+<p>VolcEngine is an important ToB Business 
+of ByteDance, and ImageX is one of the items 
+of VolcEngine. For common use, I made a 
+flysystem adapter for ImageX to let the PHP 
+application base on Laravel, Luma, ThinkPHP, 
+or other frameworks can integrate ImageX 
+easily.</p>
+                    ''',
+                    "content_plain": None
+                },
+            ]
+        },
+        {
+            "title": "Projects",
+            "list": [
+                {
+
+                    "logo_src": "assets/xiaobu.png",
+                    "logo_alt": "XiaoBu",
+
+                    "title": 'Main collaborator of <a href="https://system.lib.whu.edu.cn/game2018/web-mobile/index.html">Wuhan University Library User Activating Platform</a>',
+                    "title_plain": '''Main collaborator of Wuhan University Library
+User Activating Platform 
+<span>https://system.lib.whu.edu.cn/game2018/web-mobile/index.html</span>''',
+
+                    "period": None,
+
+                    "content": '''
+<p>Wuhan University Library account needs 
+to be activated after initializing. And 
+my friends and I made an application to 
+let freshmen activate their accounts 
+after entering school.</p>
+                    ''',
+                    "content_plain": None
+                },
+                {
+
+                    "logo_src": "assets/mengxiangjia-logo.png",
+                    "logo_alt": "WHU Dreamer",
+
+                    "title": 'Member of WHU Dreamer',
+                    "title_plain": 'Member of WHU Dreamer',
+
+                    "period": "09/2020 - Present",
+
+                    "content": '''
+<p>WHU Dreamer（WeChat Mini App）is an 
+application made by Wuhan University 
+Student Union. This application provides 
+lots of tools to make our work more 
+efficient. I am a server-side maintainer 
+of campus forum. The forum is popular 
+among students and teachers.
+</p>
+                    ''',
+                    "content_plain": None
+                },
             ]
         },
         {
             "title": "Miscellaneous",
             "list": [
+
                 {
 
                     "logo_src": "assets/chatting.svg",
@@ -162,27 +233,6 @@ Providing a similar API between various
 kinds of chatting robot platforms for 
 easy migration from this one to another 
 one.</p>
-                    ''',
-                    "content_plain": None
-                },
-                {
-
-                    "logo_src": "assets/xiaobu.png",
-                    "logo_alt": "XiaoBu",
-
-                    "title": 'Main collaborator of <a href="https://system.lib.whu.edu.cn/game2018/web-mobile/index.html">Wuhan University Library User Activating Platform</a>',
-                    "title_plain": '''Main collaborator of Wuhan University Library
-User Activating Platform 
-<span>https://system.lib.whu.edu.cn/game2018/web-mobile/index.html</span>''',
-
-                    "period": None,
-
-                    "content": '''
-<p>Wuhan University Library account needs 
-to be activated after initializing. And 
-my friends and I made an application to 
-let freshmen activate their accounts 
-after entering school.</p>
                     ''',
                     "content_plain": None
                 },

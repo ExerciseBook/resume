@@ -43,7 +43,7 @@ content = {
                     "content": '''
 <p>主修专业：计算机科学（本科）。
 预计毕业时间：2022 年 6 月。
-GPA：3.29 / 4.00。</p>
+GPA：3.33 / 4.00。</p>
                     ''',
                     "content_plain": None
                 }
@@ -62,12 +62,12 @@ GPA：3.29 / 4.00。</p>
                     "content": '''
 <ul>
 <li><p>
-服务端开发：会用常用的网页服务端开发框架的基本功能
-（如：Spring Boot、ASP.Net MVC、Laravel）。
+服务端开发：会用常用的网页服务端开发框架
+（如：Spring Boot、ASP.Net MVC、Laravel）的基本功能。
 </p></li>
 <li><p>
 偏好语言: Kotlin，C#，Java，Javascript，
-Golang，Pascal，Delphi。
+Pascal，Delphi。
 </p></li>
 </ul>
                     ''',
@@ -180,26 +180,6 @@ Minecraft 服务器和多 QQ 群之间的复杂分组转发
                     ''',
                     "content_plain": None
                 },
-                {
-
-                    "logo_src": "assets/onebot-logo.png",
-                    "logo_alt": "OneBot Logo",
-
-                    "title": '<a href="https://github.com/howmanybots/onebot">Onebot</a> 概念协作者',
-                    "title_plain": '''Onebot 概念协作者
-<span>github/howmanybots/onebot</span>''',
-
-                    "period": None,
-
-                    "content": '''
-<p>一个聊天机器人的接口兼容层概念。在不同的聊天
-机器人平台中提供一个兼容层以使得不同的聊天机器人
-平台可以暴露出一套相似的程序接口，使得开发人员
-可以快速地在多个聊天机器人平台之间进行迁移或集成
-更多的聊天机器人平台。</p>
-                    ''',
-                    "content_plain": None
-                },
             ]
         },
         {
@@ -219,6 +199,26 @@ Minecraft 服务器和多 QQ 群之间的复杂分组转发
 <p>CKYU 社区对汉语聊天机器人的设计与交互模式
 影响深远。在该社区 2020 年 8 月份闭站后依然
 有许多聊天机器人应用保留了 CKYU 形式的程序接口。</p>
+                    ''',
+                    "content_plain": None
+                },
+                {
+
+                    "logo_src": "assets/onebot-logo.png",
+                    "logo_alt": "OneBot Logo",
+
+                    "title": '<a href="https://github.com/howmanybots/onebot">Onebot</a> 概念协作者',
+                    "title_plain": '''Onebot 概念协作者
+<span>github/howmanybots/onebot</span>''',
+
+                    "period": None,
+
+                    "content": '''
+<p>一个聊天机器人的接口兼容层概念。在不同的聊天
+机器人平台中提供一个兼容层以使得不同的聊天机器人
+平台可以暴露出一套相似的程序接口，使得开发人员
+可以快速地在多个聊天机器人平台之间进行迁移或集成
+更多的聊天机器人平台。</p>
                     ''',
                     "content_plain": None
                 },
