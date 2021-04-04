@@ -248,7 +248,7 @@ one.</p>
                     "period": None,
 
                     "content": '''
-<p>The Best Technical Improvements. 
+<p>The Best Technical Improvements (aka. the second prize). 
 The only one group which is make of student 
 won a prize in this competition.</p>
                     ''',
