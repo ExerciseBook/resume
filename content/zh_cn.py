@@ -183,6 +183,91 @@ Minecraft 服务器和多 QQ 群之间的复杂分组转发
             ]
         },
         {
+            "title": "学科竞赛与认证",
+            "list": [
+                {
+
+                    # "logo_src": "assets/ccf-csp.png",
+                    "logo_src": None,
+                    "logo_alt": "CCF",
+
+                    "title": '''第 20 次 CCF 计算机软件能力认证 300 分''',
+                    "title_plain": None,
+
+                    "period": "2020 年 09 月 22 日",
+
+                    "content": '''
+<p>排名：前 3.76%</p>
+                    ''',
+                    "content_plain": None
+                },
+                {
+
+                    # "logo_src": "assets/ccf-csp.png",
+                    "logo_src": None,
+                    "logo_alt": "CCF",
+
+                    "title": '''2020 CCF CCSP 竞赛 华中赛区铜奖''',
+                    "title_plain": None,
+
+                    "period": "2020 年 10 月 18 日",
+
+                    "content": '''
+<p></p>
+                    ''',
+                    "content_plain": None
+                },
+                {
+
+                    # "logo_src": "assets/ccf-csp.png",
+                    "logo_src": None,
+                    "logo_alt": "CCF",
+
+                    "title": '''第 22 次 CCF 计算机软件能力认证 260 分''',
+                    "title_plain": None,
+
+                    "period": "2021 年 04 月 19 日",
+
+                    "content": '''
+<p>排名：前 9.38%</p>
+                    ''',
+                    "content_plain": None
+                },
+                {
+
+                    # "logo_src": "assets/ccf-csp.png",
+                    "logo_src": None,
+                    "logo_alt": "蓝桥杯",
+
+                    "title": '''蓝桥杯 第十二届 省赛一等奖''',
+                    "title_plain": None,
+
+                    "period": "2021 年 04 月 28 日",
+
+                    "content": '''
+<p>Python 程序设计大学组 一等奖</p>
+                    ''',
+                    "content_plain": None
+                },
+                {
+
+                    # "logo_src": "assets/ccf-csp.png",
+                    "logo_src": None,
+                    "logo_alt": "天梯赛",
+
+                    "title": '''CCCC 天梯赛''',
+                    "title_plain": None,
+
+                    "period": "2021 年 04 月 29 日",
+
+                    "content": '''
+<p>个人三等奖，学校团体排名 15。</p>
+                    ''',
+                    "content_plain": None
+                },
+            ]
+        },
+        {
             "title": "其他",
             "list": [
                 {
