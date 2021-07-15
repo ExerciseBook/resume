@@ -49,11 +49,33 @@ GPA 3.33 / 4.00</p>
                 }
             ]
         },
-        # {
-        #     "title": "Work Experience",
-        #     "list": [
-        #     ]
-        # },
+        {
+            "title": "Work Experience",
+            "list": [
+                {
+                    "logo_src": "assets/bytedance-logo.svg",
+                    "logo_alt": "ByteDance Logo",
+
+                    "title": "ByteDance, China",
+                    "title_plain": None,
+
+                    "period": "07/2021 - 09/2021",
+
+                    "content": '''
+<p>Intern. Working on the multimedia platform.
+Developing for the image processing system and 
+the business cooperation.
+</p>
+<p>Learning to communicate with others and 
+getting familiar with a new field in a short time. 
+It is a really good experience for me to work with 
+other people.
+</p>
+                    ''',
+                    "content_plain": None
+                }
+            ]
+        },
         {
             "title": "Skills",
             "list": [
@@ -71,6 +93,9 @@ Laravel).
 Prefer using language: 
 Kotlin, C#, Java, Javascript, 
 Pascal, Delphi.
+</p></li>
+<li><p>
+And the computer science basic knowledge.
 </p></li>
 </ul>
                     ''',
@@ -98,6 +123,17 @@ QQ group chatting system. Provide
 channel isolation setting for complex 
 forwarding rule between multi Minecraft 
 server and multi QQ groups.</p>
+<p>Using the knowledge of computer 
+network, operating system, software 
+engineering, and some basic data 
+structures. I code this program basic 
+on the raw windows socket API. Maintaining 
+the connection pool by myself, and abstract 
+the endpoint of the network to a few 
+interfaces. </p>
+<p>Finally, this application runs well 
+for some months on my server and was used 
+by dozens of users.</p>
                     ''',
                     "content_plain": None
                 },
@@ -112,11 +148,17 @@ server and multi QQ groups.</p>
                     "period": None,
 
                     "content": '''
-<p>An Onebot developing framework base on 
+<p>A Onebot developing framework base on 
 ASP.Core. Provide a Spring Web binding 
 (Asp.Net MVC also) like command router 
 for easily add a new command to the 
 chatting robot.</p>
+<p>Using the knowledge of software engineering, 
+data structures and, compiler front end. I 
+code a high-performance command router by 
+preparing the parameter type before starting 
+to receive messages and manage all commands 
+into a tiered tree.</p>
                     ''',
                     "content_plain": None
                 },
@@ -138,7 +180,9 @@ of VolcEngine. For common use, I made a
 flysystem adapter for ImageX to let the PHP 
 application base on Laravel, Luma, ThinkPHP, 
 or other frameworks can integrate ImageX 
-easily.</p>
+easily. This project is an important part 
+of VolcEnging ImageX recommended on VolcEngins's 
+website.</p>
                     ''',
                     "content_plain": None
                 },
@@ -161,10 +205,18 @@ User Activating Platform
 
                     "content": '''
 <p>Wuhan University Library account needs 
-to be activated after initializing. And 
-my friends and I made an application to 
-let freshmen activate their accounts 
-after entering school.</p>
+to be activated after initializing. Unless 
+a freshman activates his / her account, this 
+account is not allowed to borrow a book from 
+the library. And my friends and I made an 
+application to let freshmen activate their 
+accounts after entering school.</p>
+<p>In this project, I used the knowledge of 
+computer network and software engineering, 
+designed a protocol to make sure a user can 
+only answer the quiz in a minute and made a 
+leaderboard.
+</p>
                     ''',
                     "content_plain": None
                 },
@@ -187,6 +239,111 @@ efficient. I am a server-side maintainer
 of campus forum. The forum is popular 
 among students and teachers.
 </p>
+                    ''',
+                    "content_plain": None
+                },
+            ]
+        },
+        {
+            "title": "Certifications",
+            "list": [
+                {
+
+                    # "logo_src": "assets/ccf-csp.png",
+                    "logo_src": None,
+                    "logo_alt": "CCF",
+
+                    "title": '''20th CCF CSP 300''',
+                    "title_plain": None,
+
+                    "period": "22/09/2020",
+
+                    "content": '''
+<p>Ranking for 3.76% top of all participators.</p>
+<p>Certification include data structures and basic algorithm.</p>
+                    ''',
+                    "content_plain": None
+                },
+                {
+
+                    # "logo_src": "assets/ccf-csp.png",
+                    "logo_src": None,
+                    "logo_alt": "CCF",
+
+                    "title": '''2020 CCF CCSP Central China / Bronze Award''',
+                    "title_plain": None,
+
+                    "period": "18/10/2020",
+
+                    "content": '''
+<p>All the participators must got a good grade in CCF-CSP before participate in CCF-CCSP.</p>
+                    ''',
+                    "content_plain": None
+                },
+                {
+
+                    # "logo_src": "assets/ccf-csp.png",
+                    "logo_src": None,
+                    "logo_alt": "CCF",
+
+                    "title": '''22th CCF CSP 260''',
+                    "title_plain": None,
+
+                    "period": "19/04/2021",
+
+                    "content": '''
+<p>Ranking for 9.38% top of all participators.</p>
+                    ''',
+                    "content_plain": None
+                },
+                {
+
+                    # "logo_src": "assets/ccf-csp.png",
+                    "logo_src": None,
+                    "logo_alt": "Lan qiao",
+
+                    "title": '''12th Lanqiao first prize in Hubei Province''',
+                    "title_plain": None,
+
+                    "period": "28/04/2021",
+
+                    "content": '''
+<p>Python Programming Contest for undergraduate students.</p>
+<p>Certification include data structures and basic algorithm.</p>
+                    ''',
+                    "content_plain": None
+                },
+                {
+
+                    # "logo_src": "assets/ccf-csp.png",
+                    "logo_src": None,
+                    "logo_alt": "marathon",
+
+                    "title": '''CCCC Marathon''',
+                    "title_plain": None,
+
+                    "period": "29/04/2021",
+
+                    "content": '''
+<p>Personal prize of third prize. Group prize of ranking 15.</p>
+<p>Certification include data structures and basic algorithm.</p>
+                    ''',
+                    "content_plain": None
+                },
+                {
+
+                    # "logo_src": "assets/ccf-csp.png",
+                    "logo_src": None,
+                    "logo_alt": "Lan qiao",
+
+                    "title": '''12th Lanqiao second prize in final round''',
+                    "title_plain": None,
+
+                    "period": "08/06/2021",
+
+                    "content": '''
+<p>Python Programming Contest for undergraduate students.</p>
+<p>Certification include data structures and basic algorithm.</p>
                     ''',
                     "content_plain": None
                 },
