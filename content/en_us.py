@@ -239,6 +239,20 @@ efficient. I am a server-side maintainer
 of campus forum. The forum is popular 
 among students and teachers.
 </p>
+<p>The excellent point of the forum is 
+the topic system. If the server detects 
+the text between two sharp symbols, this 
+post will connect to the topic which is 
+detected. The topic system aggregates all 
+the posts. Let users browsers all the 
+messages more conveniently.</p>
+<p>Also detecting the URL in posts is another 
+big problem. Finally, I decide to let the URL 
+detection RFC compatible. Moreover, for easy 
+use, I maintained a TLD list to distinguish 
+which part belongs to the URL and which part 
+is normal text if users text Chinese characters 
+after a URL without typing whitespace.</p>
                     ''',
                     "content_plain": None
                 },
@@ -370,6 +384,16 @@ robot in designing and reaction. After
 the community closing in 2020-08, lots 
 of applications are still preserve an 
 CKYU like application interface.</p>
+<p>I maintained a Delphi / Pascal SDK 
+for this kind of application and let 
+Delphi / Pascal programmer use this 
+application easily.</p>
+<p>In communication between the member 
+of this community, I learned a lot of 
+programming skills when I was in middle 
+school and make plenty of friends which 
+are kept in touch now. It is a treasure 
+during my whole computer studying journey.</p>
                     ''',
                     "content_plain": None
                 },
@@ -390,6 +414,14 @@ Providing a similar API between various
 kinds of chatting robot platforms for 
 easy migration from this one to another 
 one.</p>
+<p>The main idea of this protocol is building 
+a set of adapters to make many kinds of IM 
+chatting robot systems expose a certain 
+commonly used API.</p>
+<p>This project is in the list of Summer 2021 
+of Open Source Promotion Plan, which is held 
+by the Institute of Software Chinese Academy 
+of Sciences</p>
                     ''',
                     "content_plain": None
                 },
