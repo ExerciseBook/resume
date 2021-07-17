@@ -440,6 +440,13 @@ of Sciences</p>
 <p>The Best Technical Improvements (aka. the second prize). 
 The only one group which is make of student 
 won a prize in this competition.</p>
+<p>The application we made is the demo of the 
+campus forum. We learned the core idea of 
+Discuz Q and construct a new application that 
+fit our campus community. At last, we migrated 
+the whole application to our own code and 
+integrated into the WeChat mini program I 
+mentioned before. </p>
                     ''',
                     "content_plain": None
                 },
@@ -457,8 +464,9 @@ won a prize in this competition.</p>
 <p>I like to share my skill with others 
 and also good at learning from others. 
 I am also very delight to make a patch 
-for my favorite application. Thus, my 
-code was accepted by some repositories, 
+for my favorite application. I like to 
+make the application I love to be better. 
+Thus, my code was accepted by some repositories, 
 such as a widely used plug-in <a href="https://github.com/webbukkit/dynmap/">Dynmap</a> 
 on Minecraft.</p>
                     ''',
@@ -466,8 +474,9 @@ on Minecraft.</p>
 <p>I like to share my skill with others 
 and also good at learning from others. 
 I am also very delight to make a patch 
-for my favorite application. Thus, my 
-code was accepted by some repositories, 
+for my favorite application. I like to 
+make the application I love to be better. 
+Thus, my code was accepted by some repositories, 
 such as a widely used plug-in 
 Dynmap (github/webbukkit/dynmap) 
 on Minecraft.</p>
