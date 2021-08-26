@@ -49,11 +49,31 @@ GPA：3.33 / 4.00。</p>
                 }
             ]
         },
-        # {
-        #     "title": "工作经历",
-        #     "list": [
-        #     ]
-        # },
+        {
+            "title": "工作经历",
+            "list": [
+                {
+                    "logo_src": "assets/bytedance-logo.svg",
+                    "logo_alt": "字节跳动",
+
+                    "title": "ByteDance, China",
+                    "title_plain": None,
+
+                    "period": "2021 年 7 月 至 2021 年 9 月",
+
+                    "content": '''
+<p>多媒体平台后端开发实习生，主要业务方向为图像处理系统的
+企业业务对接。
+</p>
+<p>在实习过程中学习如何与其他同事交流，尽快熟悉整个业务流程，
+并对企业客户所需要的功能做出相应的整合，协助企业更好地接入火山
+引擎的产品。
+</p>
+                    ''',
+                    "content_plain": None
+                }
+            ]
+        },
         {
             "title": "技能",
             "list": [
@@ -68,6 +88,9 @@ GPA：3.33 / 4.00。</p>
 <li><p>
 偏好语言: Kotlin，C#，Java，Javascript，
 Pascal，Delphi。
+</p></li>
+<li><p>
+和基本的计算机科学知识与科学素养。
 </p></li>
 </ul>
                     ''',
@@ -90,9 +113,10 @@ Pascal，Delphi。
 
                     "content": '''
 <p>一个 Minecraft 服务器和 QQ 群之间的聊天
-消息转发同步工具，并提供了频道隔离功能以支持多 
-Minecraft 服务器和多 QQ 群之间的复杂分组转发
-关系。</p>
+消息转发同步工具，并参考了线程池的实现方式提供
+了频道隔离功能以支持多 Minecraft 服务器
+和多 QQ 群之间的复杂频道分组关系的聊天记录转发
+功能。本程序在 mcbbs 上受到了众多好评。</p>
                     ''',
                     "content_plain": None
                 },
@@ -110,10 +134,10 @@ Minecraft 服务器和多 QQ 群之间的复杂分组转发
                     "content": '''
 <p>一个基于 ASP.Core 的 OneBot 开发框架。
 提供了类似 Spring Web 绑定（或 Asp.Net MVC）
-风格的指令路由功能，以便开发者可以使用简单的几行
+风格的指令路由功能，框架使用者可以使用简单的几行
 代码就能完成一个指令的定义，解析，参数获取的流程。
-并利用了 ASP.Core 中的依赖注入框架，有效地提高
-了聊天机器人的开发效率。</p>
+此外，该框架也利用了 ASP.Core 的依赖注入功能，
+有效地提高了聊天机器人的开发效率。</p>
                     ''',
                     "content_plain": None
                 },
@@ -133,7 +157,8 @@ Minecraft 服务器和多 QQ 群之间的复杂分组转发
 为其中的 ImageX 服务制作了 PHP 扩展，以使得
 使用 FlySystem、Laravel、ThinkPhp 作为开发
 脚手架的原有 PHP 程序能够更快地集成并使用 ImageX 
-平台的服务。</p>
+平台的服务。这部分的技术积累也为国产老牌
+程序 DiscuzX 的 ImageX 集成提供了相关的技术支持</p>
                     ''',
                     "content_plain": None
                 },
@@ -180,6 +205,27 @@ Minecraft 服务器和多 QQ 群之间的复杂分组转发
                     ''',
                     "content_plain": None
                 },
+                {
+
+                    "logo_src": "assets/data-transfer.svg",
+                    "logo_alt": "SudoDrive",
+
+                    "title": '<a href="https://github.com/iSudocat/SudoDrive/">SudoDrive</a>',
+                    "title_plain": '''SudoDrive <span>https://github.com/iSudocat/SudoDrive/</span>''',
+
+                    "period": "2021 年 7 月",
+
+                    "content": '''
+<p>SudoDrive 是一款面向中小规模团体的
+公共文件存储系统（比如，一个班级的同学 或 一个小的开
+发团队等等）。我们希望能够建立一个低成本、高速度、权限
+可控、分组完善的文件存储与共享协作系统。解决在学习生活
+中遇到的文件存储和分享问题。</p>
+<p>该项目获得了 2021 年（第 14 届）中国大学生计算机
+设计大赛全国二等奖。</p>
+                    ''',
+                    "content_plain": None
+                },
             ]
         },
         {
@@ -198,6 +244,7 @@ Minecraft 服务器和多 QQ 群之间的复杂分组转发
 
                     "content": '''
 <p>排名：前 3.76%</p>
+<p>该认证为算法与程序设计能力认证。</p>
                     ''',
                     "content_plain": None
                 },
@@ -213,7 +260,7 @@ Minecraft 服务器和多 QQ 群之间的复杂分组转发
                     "period": "2020 年 10 月 18 日",
 
                     "content": '''
-<p></p>
+<p>该认证为程序设计能力认证。</p>
                     ''',
                     "content_plain": None
                 },
@@ -230,6 +277,7 @@ Minecraft 服务器和多 QQ 群之间的复杂分组转发
 
                     "content": '''
 <p>排名：前 9.38%</p>
+<p>该认证为算法与程序设计能力认证。</p>
                     ''',
                     "content_plain": None
                 },
@@ -246,6 +294,7 @@ Minecraft 服务器和多 QQ 群之间的复杂分组转发
 
                     "content": '''
 <p>Python 程序设计大学组 一等奖</p>
+<p>该认证为算法能力认证。</p>
                     ''',
                     "content_plain": None
                 },
@@ -262,6 +311,7 @@ Minecraft 服务器和多 QQ 群之间的复杂分组转发
 
                     "content": '''
 <p>个人三等奖，学校团体排名 15。</p>
+<p>该认证为算法能力认证。</p>
                     ''',
                     "content_plain": None
                 },
@@ -278,6 +328,7 @@ Minecraft 服务器和多 QQ 群之间的复杂分组转发
 
                     "content": '''
 <p>Python 程序设计大学组 二等奖</p>
+<p>该认证为算法能力认证。</p>
                     ''',
                     "content_plain": None
                 },
