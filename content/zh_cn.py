@@ -56,7 +56,7 @@ GPA：3.33 / 4.00。</p>
                     "logo_src": "assets/bytedance-logo.svg",
                     "logo_alt": "字节跳动",
 
-                    "title": "ByteDance, China",
+                    "title": "字节跳动",
                     "title_plain": None,
 
                     "period": "2021 年 7 月 至 2021 年 9 月",
