@@ -66,11 +66,6 @@ GPA 3.33 / 4.00</p>
 Developing for the image processing system and 
 the business cooperation.
 </p>
-<p>Learning to communicate with others and 
-getting familiar with a new field in a short time. 
-It is a really good experience for me to work with 
-other people.
-</p>
                     ''',
                     "content_plain": None
                 }
