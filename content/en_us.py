@@ -38,12 +38,11 @@ content = {
                     "title": "WuHan University, Wuhan, Hubei, China",
                     "title_plain": None,
 
-                    "period": "08/2018 - Present",
+                    "period": "09/2018 - 06/2022",
 
                     "content": '''
 <p>Major: Computer Science (Undergraduate), 
-Anticipated graduation date: 06/2022, 
-GPA 3.33 / 4.00</p>
+GPA 3.41 / 4.00</p>
                     ''',
                     "content_plain": None
                 }

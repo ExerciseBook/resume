@@ -38,12 +38,11 @@ content = {
                     "title": "武汉大学, 中国, 湖北省, 武汉",
                     "title_plain": None,
 
-                    "period": "2018 年 8 月至今",
+                    "period": "2018 年 9 月至 2022 年 6 月",
 
                     "content": '''
 <p>主修专业：计算机科学（本科）。
-预计毕业时间：2022 年 6 月。
-GPA：3.33 / 4.00。</p>
+GPA：3.41 / 4.00。</p>
                     ''',
                     "content_plain": None
                 }
