@@ -3,6 +3,7 @@ content = {
     "title": "Eric_Lian 简历",
 
     "extra_style": "zh_cn.css",
+    "locale": "zh-CN",
     
     "profile": [
         {
@@ -38,7 +39,7 @@ content = {
                     "title": "武汉大学, 中国, 湖北省, 武汉",
                     "title_plain": None,
 
-                    "period": "2018 年 9 月至 2022 年 6 月",
+                    "period": "2018年09月 至 2022年06月",
 
                     "content": '''
 <p>主修专业：计算机科学（本科）。
@@ -58,18 +59,37 @@ GPA：3.41 / 4.00。</p>
                     "title": "字节跳动",
                     "title_plain": None,
 
-                    "period": "2021 年 7 月 至 2021 年 9 月",
+                    "period": "2022年07月 至 {PRESENT}",
+
+                    "content": '''
+<p>多媒体平台后端开发，主要业务方向为图像处理系统的开发建设
+及企业业务对接。
+</p>
+<p>整合客户需求，协助客户接入火山引擎，维护火山引擎接入
+文档与 SDK。
+</p>
+                    ''',
+                    "content_plain": None
+                },
+                {
+                    "logo_src": "assets/bytedance-logo.svg",
+                    "logo_alt": "字节跳动",
+
+                    "title": "字节跳动",
+                    "title_plain": None,
+
+                    "period": "2021年07月 至 2021年09月",
 
                     "content": '''
 <p>多媒体平台后端开发实习生，主要业务方向为图像处理系统的
 企业业务对接。
 </p>
 <p>整合客户需求，协助客户接入火山引擎，维护火山引擎接入
-文档与 SDK
+文档与 SDK。
 </p>
                     ''',
                     "content_plain": None
-                }
+                },
             ]
         },
         {
@@ -81,14 +101,13 @@ GPA：3.41 / 4.00。</p>
 <ul>
 <li><p>
 服务端开发：会用常用的网页服务端开发框架
-（如：Spring Boot、ASP.Net MVC、Laravel）的基本功能。
+（如：Spring MVC.Net MVC、Laravel、Gin、Vert.X）的基本功能。
 </p></li>
 <li><p>
-偏好语言: Kotlin，C#，Java，Javascript，
-Pascal，Delphi。
+偏好语言: Kotlin，C#，Golang，PHP，Java，Javascript，Pascal，Delphi。
 </p></li>
 <li><p>
-和基本的计算机科学知识与科学素养。
+及基本的计算机科学知识与科学素养。
 </p></li>
 </ul>
                     ''',
@@ -193,7 +212,7 @@ Pascal，Delphi。
                     "title": '武大梦想珈团队成员',
                     "title_plain": '武大梦想珈团队成员',
 
-                    "period": "2020 年 9 月至今",
+                    "period": "2020年09月 至 {PRESENT}",
 
                     "content": '''
 <p>武大梦想珈（微信小程序）是武汉大学学生会制作的
@@ -216,7 +235,7 @@ Pascal，Delphi。
                     "title": '<a href="https://github.com/iSudocat/SudoDrive/">SudoDrive</a>',
                     "title_plain": '''SudoDrive <span>https://github.com/iSudocat/SudoDrive/</span>''',
 
-                    "period": "2021 年 7 月",
+                    "period": "2021年07月",
 
                     "content": '''
 <p>SudoDrive 是一款面向中小规模团体的
@@ -243,7 +262,7 @@ Pascal，Delphi。
                     "title": '''第 20 次 CCF 计算机软件能力认证 300 分''',
                     "title_plain": None,
 
-                    "period": "2020 年 09 月 22 日",
+                    "period": "2020年09月22日",
 
                     "content": '''
 <p>排名：前 3.76%</p>
@@ -260,7 +279,7 @@ Pascal，Delphi。
                     "title": '''2020 CCF CCSP 竞赛 华中赛区铜奖''',
                     "title_plain": None,
 
-                    "period": "2020 年 10 月 18 日",
+                    "period": "2020年10月18日",
 
                     "content": '''
 <p>该认证为程序设计能力认证。</p>
@@ -276,7 +295,7 @@ Pascal，Delphi。
                     "title": '''第 22 次 CCF 计算机软件能力认证 260 分''',
                     "title_plain": None,
 
-                    "period": "2021 年 04 月 19 日",
+                    "period": "2021年04月19日",
 
                     "content": '''
 <p>排名：前 9.38%</p>
@@ -293,7 +312,7 @@ Pascal，Delphi。
                     "title": '''蓝桥杯 第十二届 省赛一等奖''',
                     "title_plain": None,
 
-                    "period": "2021 年 04 月 28 日",
+                    "period": "2021年04月28日",
 
                     "content": '''
 <p>Python 程序设计大学组 一等奖</p>
@@ -310,7 +329,7 @@ Pascal，Delphi。
                     "title": '''CCCC 天梯赛''',
                     "title_plain": None,
 
-                    "period": "2021 年 04 月 29 日",
+                    "period": "2021年04月29日",
 
                     "content": '''
 <p>个人三等奖，学校团体排名 15。</p>
@@ -327,7 +346,7 @@ Pascal，Delphi。
                     "title": '''蓝桥杯 第十二届 国赛二等奖''',
                     "title_plain": None,
 
-                    "period": "2021 年 06 月 08 日",
+                    "period": "2021年06月08日",
 
                     "content": '''
 <p>Python 程序设计大学组 二等奖</p>
@@ -348,7 +367,7 @@ Pascal，Delphi。
                     "title": '''CKYU 社区闲聊板块与开发板块板主''',
                     "title_plain": None,
 
-                    "period": "2018 年 11 月 - 2020 年 08 月",
+                    "period": "2018年11月 - 2020年08月",
 
                     "content": '''
 <p>CKYU 社区对汉语聊天机器人的设计与交互模式

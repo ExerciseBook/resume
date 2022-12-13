@@ -12,7 +12,11 @@ def compose(content, filename):
     if (content["extra_style"] != None) :
         extra_style = Template('<link rel="stylesheet" type="text/css" href="style/${extra_style}">').substitute(extra_style = content["extra_style"])
 
-    root = template.root_template.generate_root(content["title"], main_page, plain_page, extra_style)
+    locale = "en-US"
+    if (content["locale"] != None) :
+        locale = content["locale"]
+    
+    root = template.root_template.generate_root(content["title"], main_page, plain_page, extra_style, locale)
     soup = BeautifulSoup(root, features = "lxml")
     # print(soup.prettify())
 

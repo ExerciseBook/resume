@@ -3,6 +3,7 @@ content = {
     "title": "Eric_Lian's Resume",
 
     "extra_style": "en_us.css",
+    "locale": "en-US",
 
     "profile": [
         {
@@ -58,6 +59,23 @@ GPA 3.41 / 4.00</p>
                     "title": "ByteDance, China",
                     "title_plain": None,
 
+                    "period": "07/2022 - {PRESENT}",
+
+                    "content": '''
+<p>Regular. Working on the multimedia platform.
+Developing for the image processing system and 
+the business cooperation.
+</p>
+                    ''',
+                    "content_plain": None
+                },
+                {
+                    "logo_src": "assets/bytedance-logo.svg",
+                    "logo_alt": "ByteDance Logo",
+
+                    "title": "ByteDance, China",
+                    "title_plain": None,
+
                     "period": "07/2021 - 09/2021",
 
                     "content": '''
@@ -67,7 +85,7 @@ the business cooperation.
 </p>
                     ''',
                     "content_plain": None
-                }
+                },
             ]
         },
         {
@@ -80,16 +98,15 @@ the business cooperation.
 <li><p>
 Server-side development: 
 Family with commonly used web development 
-framework (e.g. Spring Boot, ASP.Net MVC, 
-Laravel).
+framework (e.g. Spring MVC, ASP.Net MVC, Laravel, Gin, 
+Vert.X).
 </p></li>
 <li><p>
 Prefer using language: 
-Kotlin, C#, Java, Javascript, 
-Pascal, Delphi.
+Kotlin, C#, Golang, PHP, Java, Javascript, Pascal, Delphi.
 </p></li>
 <li><p>
-And the computer science basic knowledge.
+Computer science basic knowledge also.
 </p></li>
 </ul>
                     ''',
@@ -222,7 +239,7 @@ leaderboard.
                     "title": 'Member of WHU Dreamer',
                     "title_plain": 'Member of WHU Dreamer',
 
-                    "period": "09/2020 - Present",
+                    "period": "09/2020 - {PRESENT}",
 
                     "content": '''
 <p>WHU Dreamer（WeChat Mini App）is an 

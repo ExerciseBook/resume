@@ -37,12 +37,6 @@ section_parts_template = '''
 '''
 
 section_list_item = '''
-<div class="section-item-title">
-${title}
-</div>
-'''
-
-section_list_item = '''
 <div class="section-item">
 <div class="section-item-title">
     ${title}
@@ -70,7 +64,7 @@ section_list_title_without_class = '''
 '''
 
 section_list_title_period = '''
-<span>${content}</span>
+<span class="section-list-title-period">${content}</span>
 '''
 
 section_list_title_logo = '''

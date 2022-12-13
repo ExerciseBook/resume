@@ -44,7 +44,7 @@
        <p>
         WuHan University, Wuhan, Hubei, China
        </p>
-       <span>
+       <span class="section-list-title-period">
         09/2018 - 06/2022
        </span>
       </div>
@@ -69,7 +69,23 @@
        <p>
         ByteDance, China
        </p>
-       <span>
+       <span class="section-list-title-period">
+        07/2022 - {PRESENT}
+       </span>
+      </div>
+      <div class="section-item-content">
+       <p>
+        Regular. Working on the multimedia platform.Developing for the image processing system and the business cooperation.
+       </p>
+      </div>
+     </div>
+     <div class="section-item">
+      <div class="section-item-title">
+       <img alt="ByteDance" class="section-item-logo" logo="" src="assets/bytedance-logo.svg"/>
+       <p>
+        ByteDance, China
+       </p>
+       <span class="section-list-title-period">
         07/2021 - 09/2021
        </span>
       </div>
@@ -95,17 +111,17 @@
        <ul>
         <li>
          <p>
-          Server-side development: Family with commonly used web development framework (e.g. Spring Boot, ASP.Net MVC, Laravel).
+          Server-side development: Family with commonly used web development framework (e.g. Spring MVC, ASP.Net MVC, Laravel, Gin, Vert.X).
          </p>
         </li>
         <li>
          <p>
-          Prefer using language: Kotlin, C#, Java, Javascript, Pascal, Delphi.
+          Prefer using language: Kotlin, C#, Golang, PHP, Java, Javascript, Pascal, Delphi.
          </p>
         </li>
         <li>
          <p>
-          And the computer science basic knowledge.
+          Computer science basic knowledge also.
          </p>
         </li>
        </ul>
@@ -236,8 +252,8 @@ User Activating Platform
        <p class="only-print-can-see">
         Member of WHU Dreamer
        </p>
-       <span>
-        09/2020 - Present
+       <span class="section-list-title-period">
+        09/2020 - {PRESENT}
        </span>
       </div>
       <div class="section-item-content">
@@ -266,7 +282,7 @@ User Activating Platform
        <p>
         20th CCF CSP 300
        </p>
-       <span>
+       <span class="section-list-title-period">
         22/09/2020
        </span>
       </div>
@@ -284,7 +300,7 @@ User Activating Platform
        <p>
         2020 CCF CCSP Central China / Bronze Award
        </p>
-       <span>
+       <span class="section-list-title-period">
         18/10/2020
        </span>
       </div>
@@ -299,7 +315,7 @@ User Activating Platform
        <p>
         22th CCF CSP 260
        </p>
-       <span>
+       <span class="section-list-title-period">
         19/04/2021
        </span>
       </div>
@@ -314,7 +330,7 @@ User Activating Platform
        <p>
         12th Lanqiao first prize in Hubei Province
        </p>
-       <span>
+       <span class="section-list-title-period">
         28/04/2021
        </span>
       </div>
@@ -332,7 +348,7 @@ User Activating Platform
        <p>
         CCCC Marathon
        </p>
-       <span>
+       <span class="section-list-title-period">
         29/04/2021
        </span>
       </div>
@@ -350,7 +366,7 @@ User Activating Platform
        <p>
         12th Lanqiao second prize in final round
        </p>
-       <span>
+       <span class="section-list-title-period">
         08/06/2021
        </span>
       </div>
@@ -379,7 +395,7 @@ User Activating Platform
         CKYU community 
 Chatting and programming board manager
        </p>
-       <span>
+       <span class="section-list-title-period">
         11/2018 - 08/2020
        </span>
       </div>
@@ -490,6 +506,11 @@ GPA 3.41 / 4.00
 
 [Work Experience]
 ByteDance, China
+07/2022 - {PRESENT}
+Regular. Working on the multimedia platform.
+Developing for the image processing system and 
+the business cooperation.
+ByteDance, China
 07/2021 - 09/2021
 Intern. Working on the multimedia platform.
 Developing for the image processing system and 
@@ -498,12 +519,11 @@ the business cooperation.
 [Skills]
 Server-side development: 
 Family with commonly used web development 
-framework (e.g. Spring Boot, ASP.Net MVC, 
-Laravel).
+framework (e.g. Spring MVC, ASP.Net MVC, Laravel, Gin, 
+Vert.X).
 Prefer using language: 
-Kotlin, C#, Java, Javascript, 
-Pascal, Delphi.
-And the computer science basic knowledge.
+Kotlin, C#, Golang, PHP, Java, Javascript, Pascal, Delphi.
+Computer science basic knowledge also.
 
 
 [Personal Project]
@@ -569,7 +589,7 @@ designed a protocol to make sure a user can
 only answer the quiz in a minute and made a 
 leaderboard.
 Member of WHU Dreamer
-09/2020 - Present
+09/2020 - {PRESENT}
 WHU Dreamer（WeChat Mini App）is an 
 application made by Wuhan University 
 Student Union. This application provides 
@@ -686,5 +706,12 @@ on Minecraft.
 
     </pre>
   </div>
+  <script>
+   (() => {
+            const present = new Intl.DateTimeFormat('en-US',{month:'2-digit', year:'numeric'}).format(new Date())
+            for (let item of document.getElementsByClassName("section-list-title-period")) { item.innerText = item.innerText.replace("{PRESENT}", present) }
+            for (let item of document.getElementsByClassName("plain-container")) { item.innerText = item.innerText.replace("{PRESENT}", present) }
+        })()
+  </script>
  </body>
 </html>
