@@ -68,6 +68,9 @@ GPA：3.41 / 4.00。</p>
 <p>整合客户需求，协助客户接入火山引擎，维护火山引擎接入
 文档与 SDK。
 </p>
+<p>优化火山引擎 SDK 更新逻辑，提高 ImageX SDK 迭代效率，
+保证 SDK 代码质量。
+</p>
                     ''',
                     "content_plain": None
                 },
@@ -101,7 +104,11 @@ GPA：3.41 / 4.00。</p>
 <ul>
 <li><p>
 服务端开发：会用常用的网页服务端开发框架
-（如：Spring MVC.Net MVC、Laravel、Gin、Vert.X）的基本功能。
+（如：Spring MVC、.Net MVC、Laravel、Gin、Vert.X）的基本功能。
+</p></li>
+<li><p>
+简单的服务器运维：会简单使用 Kubernetes，有自己弄得一套简单的软件生命周期
+管控工具和可观测性工具。
 </p></li>
 <li><p>
 偏好语言: Kotlin，C#，Golang，PHP，Java，Javascript，Pascal，Delphi。
@@ -411,6 +418,21 @@ GPA：3.41 / 4.00。</p>
 <p>本人所在的团队获得了年度最佳技术突破奖（即第二名）。
 本人所在的团队是该场比赛中唯一获得名次的
 学生团队。</p>
+                    ''',
+                    "content_plain": None
+                },
+                {
+
+                    "logo_src": "assets/kubesphere-logo.svg",
+                    "logo_alt": "Kubesphere Logo",
+
+                    "title": 'Kubesphere 社区贡献者',
+                    "title_plain": '''Kubesphere 社区贡献者''',
+
+                    "period": None,
+
+                    "content": '''
+<p>在 Kubesphere 生态中活跃，并给 Kubesphere 提交过软件缺陷补丁。</p>
                     ''',
                     "content_plain": None
                 },
