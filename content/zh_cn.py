@@ -107,8 +107,8 @@ GPA：3.41 / 4.00。</p>
 （如：Spring MVC、.Net MVC、Laravel、Gin、Vert.X）的基本功能。
 </p></li>
 <li><p>
-简单的服务器运维：会简单使用 Kubernetes，有自己弄得一套简单的软件生命周期
-管控工具和可观测性工具。
+简单的服务器运维：会简单使用 Kubernetes，有自制的一套简单的
+软件生命周期管控工具和可观测性工具。
 </p></li>
 <li><p>
 偏好语言: Kotlin，C#，Golang，PHP，Java，Javascript，Pascal，Delphi。
@@ -133,7 +133,7 @@ GPA：3.41 / 4.00。</p>
                     "title": '<a href="https://github.com/ParaParty/JustChat">JustChat</a>',
                     "title_plain": 'JustChat: <span>github/ParaParty/JustChat</span>',
 
-                    "period": None,
+                    "period": "2018年12月 至 2020年01月",
 
                     "content": '''
 <p>一个 Minecraft 服务器和 QQ 群之间的聊天
@@ -158,9 +158,9 @@ GPA：3.41 / 4.00。</p>
 
                     "content": '''
 <p>一个基于 ASP.Core 的 OneBot 开发框架。
-提供了类似 Spring Web 绑定（或 Asp.Net MVC）
-风格的指令路由功能，框架使用者可以使用简单的几行
-代码就能完成一个指令的定义，解析，参数获取的流程。
+提供了流式风格和声明式风格的指令路由功能。
+使用者可以使用简单的几行代码就能完成一个
+指令的定义，解析，参数获取的流程。
 此外，该框架也利用了 ASP.Core 的依赖注入功能，
 有效地提高了聊天机器人的开发效率。</p>
                     ''',
@@ -178,12 +178,14 @@ GPA：3.41 / 4.00。</p>
                     "period": None,
 
                     "content": '''
-<p>火山引擎是字节跳动 ToB 业务的核心平台，本人
+<p>火山引擎是字节跳动公有云业务平台，本人
 为其中的 ImageX 服务制作了 PHP 扩展，以使得
 使用 FlySystem、Laravel、ThinkPhp 作为开发
 脚手架的原有 PHP 程序能够更快地集成并使用 ImageX 
-平台的服务。这部分的技术积累也为国产老牌
-程序 DiscuzX 的 ImageX 集成提供了相关的技术支持。</p>
+平台的服务。</p>
+<p>此外，还为零售客户提供了 ImageX 服务的
+DiscuzX!、Fresns、Flarum 等软件平台集成。
+提升火山引擎的品牌知名度。</p>
                     ''',
                     "content_plain": None
                 },
@@ -207,7 +209,7 @@ GPA：3.41 / 4.00。</p>
 能使用图书馆的完整功能。由于本人平日在学科专业
 中的出色表现，受到了图书馆邀请，与几位同学一同
 制作了一个可以让新生在入学后能够自助激活账户的
-平台。该平台总共服务过两万名武汉大学新生。</p>
+平台。该平台总共服务过五万名武汉大学新生。</p>
                     ''',
                     "content_plain": None
                 },
@@ -219,7 +221,7 @@ GPA：3.41 / 4.00。</p>
                     "title": '武大梦想珈团队成员',
                     "title_plain": '武大梦想珈团队成员',
 
-                    "period": "2020年09月 至 {PRESENT}",
+                    "period": "2020年09月 至 2022年05月",
 
                     "content": '''
 <p>武大梦想珈（微信小程序）是武汉大学学生会制作的
@@ -432,7 +434,7 @@ GPA：3.41 / 4.00。</p>
                     "period": None,
 
                     "content": '''
-<p>在 Kubesphere 生态中活跃，并给 Kubesphere 提交过软件缺陷补丁。</p>
+<p>在 Kubesphere 生态中活跃，并给 Kubesphere 生态提交过软件缺陷补丁。</p>
                     ''',
                     "content_plain": None
                 },
