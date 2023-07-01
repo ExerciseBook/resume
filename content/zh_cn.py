@@ -44,6 +44,8 @@ content = {
                     "content": '''
 <p>主修专业：计算机科学（本科）。
 GPA：3.41 / 4.00。</p>
+<p>毕设题目：Python 程序依赖修复工具 PyDFix 的问题与改进。评价：A。
+具体工作：基于简单的静态分析和迭代策略猜测一个 Python 项目的依赖清单。</p>
                     ''',
                     "content_plain": None
                 }
@@ -59,7 +61,7 @@ GPA：3.41 / 4.00。</p>
                     "title": "字节跳动",
                     "title_plain": None,
 
-                    "period": "2022年07月 至 {PRESENT}",
+                    "period": "2022年07月 至 2023年06月",
 
                     "content": '''
 <p>多媒体平台后端开发，主要业务方向为图像处理系统的开发建设

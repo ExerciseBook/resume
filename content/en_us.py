@@ -59,7 +59,7 @@ GPA 3.41 / 4.00</p>
                     "title": "ByteDance, China",
                     "title_plain": None,
 
-                    "period": "07/2022 - {PRESENT}",
+                    "period": "07/2022 - 06/2023",
 
                     "content": '''
 <p>Regular. Working on the multimedia platform.
