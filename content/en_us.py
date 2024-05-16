@@ -117,37 +117,37 @@ Computer science basic knowledge also.
         {
             "title": "Personal Project",
             "list": [
-                {
+#                 {
 
-                    "logo_src": "assets/double-arrow.svg",
-                    "logo_alt": "Double Arrow",
+#                     "logo_src": "assets/double-arrow.svg",
+#                     "logo_alt": "Double Arrow",
 
-                    "title": '<a href="https://github.com/ParaParty/JustChat">JustChat</a>',
-                    "title_plain": 'JustChat: <span>github/ParaParty/JustChat</span>',
+#                     "title": '<a href="https://github.com/ParaParty/JustChat">JustChat</a>',
+#                     "title_plain": 'JustChat: <span>github/ParaParty/JustChat</span>',
 
-                    "period": None,
+#                     "period": None,
 
-                    "content": '''
-<p>A message forwarding bridge between 
-Minecraft server chatting system and 
-QQ group chatting system. Provide 
-channel isolation setting for complex 
-forwarding rule between multi Minecraft 
-server and multi QQ groups.</p>
-<p>Using the knowledge of computer 
-network, operating system, software 
-engineering, and some basic data 
-structures. I code this program basic 
-on the raw windows socket API. Maintaining 
-the connection pool by myself, and abstract 
-the endpoint of the network to a few 
-interfaces. </p>
-<p>Finally, this application runs well 
-for some months on my server and was used 
-by dozens of users.</p>
-                    ''',
-                    "content_plain": None
-                },
+#                     "content": '''
+# <p>A message forwarding bridge between 
+# Minecraft server chatting system and 
+# QQ group chatting system. Provide 
+# channel isolation setting for complex 
+# forwarding rule between multi Minecraft 
+# server and multi QQ groups.</p>
+# <p>Using the knowledge of computer 
+# network, operating system, software 
+# engineering, and some basic data 
+# structures. I code this program basic 
+# on the raw windows socket API. Maintaining 
+# the connection pool by myself, and abstract 
+# the endpoint of the network to a few 
+# interfaces. </p>
+# <p>Finally, this application runs well 
+# for some months on my server and was used 
+# by dozens of users.</p>
+#                     ''',
+#                     "content_plain": None
+#                 },
                 {
 
                     "logo_src": "assets/onebot-logo.png",
@@ -199,76 +199,76 @@ website.</p>
                 },
             ]
         },
-        {
-            "title": "Projects",
-            "list": [
-                {
+#        {
+#            "title": "Projects",
+#            "list": [
+#                 {
 
-                    "logo_src": "assets/xiaobu.png",
-                    "logo_alt": "XiaoBu",
+#                     "logo_src": "assets/xiaobu.png",
+#                     "logo_alt": "XiaoBu",
 
-                    "title": 'Main collaborator of <a href="https://system.lib.whu.edu.cn/game2018/web-mobile/index.html">Wuhan University Library User Activating Platform</a>',
-                    "title_plain": '''Main collaborator of Wuhan University Library
-User Activating Platform 
-<span>https://system.lib.whu.edu.cn/game2018/web-mobile/index.html</span>''',
+#                     "title": 'Main collaborator of <a href="https://system.lib.whu.edu.cn/game2018/web-mobile/index.html">Wuhan University Library User Activating Platform</a>',
+#                     "title_plain": '''Main collaborator of Wuhan University Library
+# User Activating Platform 
+# <span>https://system.lib.whu.edu.cn/game2018/web-mobile/index.html</span>''',
 
-                    "period": None,
+#                     "period": None,
 
-                    "content": '''
-<p>Wuhan University Library account needs 
-to be activated after initializing. Unless 
-a freshman activates his / her account, this 
-account is not allowed to borrow a book from 
-the library. And my friends and I made an 
-application to let freshmen activate their 
-accounts after entering school.</p>
-<p>In this project, I used the knowledge of 
-computer network and software engineering, 
-designed a protocol to make sure a user can 
-only answer the quiz in a minute and made a 
-leaderboard.
-</p>
-                    ''',
-                    "content_plain": None
-                },
-                {
+#                     "content": '''
+# <p>Wuhan University Library account needs 
+# to be activated after initializing. Unless 
+# a freshman activates his / her account, this 
+# account is not allowed to borrow a book from 
+# the library. And my friends and I made an 
+# application to let freshmen activate their 
+# accounts after entering school.</p>
+# <p>In this project, I used the knowledge of 
+# computer network and software engineering, 
+# designed a protocol to make sure a user can 
+# only answer the quiz in a minute and made a 
+# leaderboard.
+# </p>
+#                     ''',
+#                     "content_plain": None
+#                 },
+#                 {
 
-                    "logo_src": "assets/mengxiangjia-logo.png",
-                    "logo_alt": "WHU Dreamer",
+#                     "logo_src": "assets/mengxiangjia-logo.png",
+#                     "logo_alt": "WHU Dreamer",
 
-                    "title": 'Member of WHU Dreamer',
-                    "title_plain": 'Member of WHU Dreamer',
+#                     "title": 'Member of WHU Dreamer',
+#                     "title_plain": 'Member of WHU Dreamer',
 
-                    "period": "09/2020 - {PRESENT}",
+#                     "period": "09/2020 - {PRESENT}",
 
-                    "content": '''
-<p>WHU Dreamer（WeChat Mini App）is an 
-application made by Wuhan University 
-Student Union. This application provides 
-lots of tools to make our work more 
-efficient. I am a server-side maintainer 
-of campus forum. The forum is popular 
-among students and teachers.
-</p>
-<p>The excellent point of the forum is 
-the topic system. If the server detects 
-the text between two sharp symbols, this 
-post will connect to the topic which is 
-detected. The topic system aggregates all 
-the posts. Let users browsers all the 
-messages more conveniently.</p>
-<p>Also detecting the URL in posts is another 
-big problem. Finally, I decide to let the URL 
-detection RFC compatible. Moreover, for easy 
-use, I maintained a TLD list to distinguish 
-which part belongs to the URL and which part 
-is normal text if users text Chinese characters 
-after a URL without typing whitespace.</p>
-                    ''',
-                    "content_plain": None
-                },
-            ]
-        },
+#                     "content": '''
+# <p>WHU Dreamer（WeChat Mini App）is an 
+# application made by Wuhan University 
+# Student Union. This application provides 
+# lots of tools to make our work more 
+# efficient. I am a server-side maintainer 
+# of campus forum. The forum is popular 
+# among students and teachers.
+# </p>
+# <p>The excellent point of the forum is 
+# the topic system. If the server detects 
+# the text between two sharp symbols, this 
+# post will connect to the topic which is 
+# detected. The topic system aggregates all 
+# the posts. Let users browsers all the 
+# messages more conveniently.</p>
+# <p>Also detecting the URL in posts is another 
+# big problem. Finally, I decide to let the URL 
+# detection RFC compatible. Moreover, for easy 
+# use, I maintained a TLD list to distinguish 
+# which part belongs to the URL and which part 
+# is normal text if users text Chinese characters 
+# after a URL without typing whitespace.</p>
+#                     ''',
+#                     "content_plain": None
+#                 },
+#            ]
+#        },
         {
             "title": "Certifications",
             "list": [
@@ -321,23 +321,23 @@ after a URL without typing whitespace.</p>
                     ''',
                     "content_plain": None
                 },
-                {
+#                 {
 
-                    # "logo_src": "assets/ccf-csp.png",
-                    "logo_src": None,
-                    "logo_alt": "Lan qiao",
+#                     # "logo_src": "assets/ccf-csp.png",
+#                     "logo_src": None,
+#                     "logo_alt": "Lan qiao",
 
-                    "title": '''12th Lanqiao first prize in Hubei Province''',
-                    "title_plain": None,
+#                     "title": '''12th Lanqiao first prize in Hubei Province''',
+#                     "title_plain": None,
 
-                    "period": "28/04/2021",
+#                     "period": "28/04/2021",
 
-                    "content": '''
-<p>Python Programming Contest for undergraduate students.</p>
-<p>Certification include data structures and basic algorithm.</p>
-                    ''',
-                    "content_plain": None
-                },
+#                     "content": '''
+# <p>Python Programming Contest for undergraduate students.</p>
+# <p>Certification include data structures and basic algorithm.</p>
+#                     ''',
+#                     "content_plain": None
+#                 },
                 {
 
                     # "logo_src": "assets/ccf-csp.png",
@@ -355,59 +355,59 @@ after a URL without typing whitespace.</p>
                     ''',
                     "content_plain": None
                 },
-                {
+#                 {
 
-                    # "logo_src": "assets/ccf-csp.png",
-                    "logo_src": None,
-                    "logo_alt": "Lan qiao",
+#                     # "logo_src": "assets/ccf-csp.png",
+#                     "logo_src": None,
+#                     "logo_alt": "Lan qiao",
 
-                    "title": '''12th Lanqiao second prize in final round''',
-                    "title_plain": None,
+#                     "title": '''12th Lanqiao second prize in final round''',
+#                     "title_plain": None,
 
-                    "period": "08/06/2021",
+#                     "period": "08/06/2021",
 
-                    "content": '''
-<p>Python Programming Contest for undergraduate students.</p>
-<p>Certification include data structures and basic algorithm.</p>
-                    ''',
-                    "content_plain": None
-                },
+#                     "content": '''
+# <p>Python Programming Contest for undergraduate students.</p>
+# <p>Certification include data structures and basic algorithm.</p>
+#                     ''',
+#                     "content_plain": None
+#                 },
             ]
         },
         {
             "title": "Miscellaneous",
             "list": [
 
-                {
+#                 {
 
-                    "logo_src": "assets/chatting.svg",
-                    "logo_alt": "Communicate",
+#                     "logo_src": "assets/chatting.svg",
+#                     "logo_alt": "Communicate",
 
-                    "title": '''CKYU community 
-Chatting and programming board manager''',
-                    "title_plain": None,
+#                     "title": '''CKYU community 
+# Chatting and programming board manager''',
+#                     "title_plain": None,
 
-                    "period": "11/2018 - 08/2020",
+#                     "period": "11/2018 - 08/2020",
 
-                    "content": '''
-<p>CKYU community affected Chinese chatting 
-robot in designing and reaction. After 
-the community closing in 2020-08, lots 
-of applications are still preserve an 
-CKYU like application interface.</p>
-<p>I maintained a Delphi / Pascal SDK 
-for this kind of application and let 
-Delphi / Pascal programmer use this 
-application easily.</p>
-<p>In communication between the member 
-of this community, I learned a lot of 
-programming skills when I was in middle 
-school and make plenty of friends which 
-are kept in touch now. It is a treasure 
-during my whole computer studying journey.</p>
-                    ''',
-                    "content_plain": None
-                },
+#                     "content": '''
+# <p>CKYU community affected Chinese chatting 
+# robot in designing and reaction. After 
+# the community closing in 2020-08, lots 
+# of applications are still preserve an 
+# CKYU like application interface.</p>
+# <p>I maintained a Delphi / Pascal SDK 
+# for this kind of application and let 
+# Delphi / Pascal programmer use this 
+# application easily.</p>
+# <p>In communication between the member 
+# of this community, I learned a lot of 
+# programming skills when I was in middle 
+# school and make plenty of friends which 
+# are kept in touch now. It is a treasure 
+# during my whole computer studying journey.</p>
+#                     ''',
+#                     "content_plain": None
+#                 },
                 {
 
                     "logo_src": "assets/onebot-logo.png",
@@ -436,63 +436,63 @@ of Sciences</p>
                     ''',
                     "content_plain": None
                 },
-                {
+#                 {
 
-                    "logo_src": "assets/techo-logo.svg",
-                    "logo_alt": "Techo Logo",
+#                     "logo_src": "assets/techo-logo.svg",
+#                     "logo_alt": "Techo Logo",
 
-                    "title": '<a href="https://cloud.tencent.com/act/event/developer2020">Tencent Techo 2020 Programming Competition</a>',
-                    "title_plain": '''Tencent Techo 2020 Programming Competition 
-<span>https://cloud.tencent.com/act/event/developer2020</span>''',
+#                     "title": '<a href="https://cloud.tencent.com/act/event/developer2020">Tencent Techo 2020 Programming Competition</a>',
+#                     "title_plain": '''Tencent Techo 2020 Programming Competition 
+# <span>https://cloud.tencent.com/act/event/developer2020</span>''',
 
-                    "period": None,
+#                     "period": None,
 
-                    "content": '''
-<p>The Best Technical Improvements (aka. the second prize). 
-The only one group which is make of student 
-won a prize in this competition.</p>
-<p>The application we made is the demo of the 
-campus forum. We learned the core idea of 
-Discuz Q and construct a new application that 
-fit our campus community. At last, we migrated 
-the whole application to our own code and 
-integrated into the WeChat mini program I 
-mentioned before. </p>
-                    ''',
-                    "content_plain": None
-                },
-                {
+#                     "content": '''
+# <p>The Best Technical Improvements (aka. the second prize). 
+# The only one group which is make of student 
+# won a prize in this competition.</p>
+# <p>The application we made is the demo of the 
+# campus forum. We learned the core idea of 
+# Discuz Q and construct a new application that 
+# fit our campus community. At last, we migrated 
+# the whole application to our own code and 
+# integrated into the WeChat mini program I 
+# mentioned before. </p>
+#                     ''',
+#                     "content_plain": None
+#                 },
+#                 {
 
-                    "logo_src": "assets/icpc-chatting.png",
-                    "logo_alt": "Communicate",
+#                     "logo_src": "assets/icpc-chatting.png",
+#                     "logo_alt": "Communicate",
 
-                    "title": 'Like sharing with others',
-                    "title_plain": None,
+#                     "title": 'Like sharing with others',
+#                     "title_plain": None,
 
-                    "period": None,
+#                     "period": None,
 
-                    "content": '''
-<p>I like to share my skill with others 
-and also good at learning from others. 
-I am also very delight to make a patch 
-for my favorite application. I like to 
-make the application I love to be better. 
-Thus, my code was accepted by some repositories, 
-such as a widely used plug-in <a href="https://github.com/webbukkit/dynmap/">Dynmap</a> 
-on Minecraft.</p>
-                    ''',
-                    "content_plain": '''
-<p>I like to share my skill with others 
-and also good at learning from others. 
-I am also very delight to make a patch 
-for my favorite application. I like to 
-make the application I love to be better. 
-Thus, my code was accepted by some repositories, 
-such as a widely used plug-in 
-Dynmap (github/webbukkit/dynmap) 
-on Minecraft.</p>
-'''
-                },
+#                     "content": '''
+# <p>I like to share my skill with others 
+# and also good at learning from others. 
+# I am also very delight to make a patch 
+# for my favorite application. I like to 
+# make the application I love to be better. 
+# Thus, my code was accepted by some repositories, 
+# such as a widely used plug-in <a href="https://github.com/webbukkit/dynmap/">Dynmap</a> 
+# on Minecraft.</p>
+#                     ''',
+#                     "content_plain": '''
+# <p>I like to share my skill with others 
+# and also good at learning from others. 
+# I am also very delight to make a patch 
+# for my favorite application. I like to 
+# make the application I love to be better. 
+# Thus, my code was accepted by some repositories, 
+# such as a widely used plug-in 
+# Dynmap (github/webbukkit/dynmap) 
+# on Minecraft.</p>
+# '''
+#                 },
             ]
         },
     ]

@@ -109,8 +109,7 @@ GPA：3.41 / 4.00。</p>
 （如：Spring MVC、.Net MVC、Laravel、Gin、Vert.X）的基本功能。
 </p></li>
 <li><p>
-简单的服务器运维：会简单使用 Kubernetes，有自制的一套简单的
-软件生命周期管控工具和可观测性工具。
+简单的服务器运维：会简单使用 Kubernetes。
 </p></li>
 <li><p>
 偏好语言: Kotlin，C#，Golang，PHP，Java，Javascript，Pascal，Delphi。
@@ -127,26 +126,26 @@ GPA：3.41 / 4.00。</p>
         {
             "title": "个人项目",
             "list": [
-                {
+#                 {
 
-                    "logo_src": "assets/double-arrow.svg",
-                    "logo_alt": "双向箭头",
+#                     "logo_src": "assets/double-arrow.svg",
+#                     "logo_alt": "双向箭头",
 
-                    "title": '<a href="https://github.com/ParaParty/JustChat">JustChat</a>',
-                    "title_plain": 'JustChat: <span>github/ParaParty/JustChat</span>',
+#                     "title": '<a href="https://github.com/ParaParty/JustChat">JustChat</a>',
+#                     "title_plain": 'JustChat: <span>github/ParaParty/JustChat</span>',
 
-                    "period": "2018年12月 至 2020年01月",
+#                     "period": "2018年12月 至 2020年01月",
 
-                    "content": '''
-<p>一个 Minecraft 服务器和 QQ 群之间的聊天
-消息转发同步工具，并参考了线程池的实现方式提供
-了频道隔离功能以支持多 Minecraft 服务器
-和多 QQ 群之间的复杂频道分组关系的聊天记录转发
-功能。本程序在 mcbbs 上受到近 200 人次回复和
-十几名用户正面点评，并被版主授予了优质原创标签。</p>
-                    ''',
-                    "content_plain": None
-                },
+#                     "content": '''
+# <p>一个 Minecraft 服务器和 QQ 群之间的聊天
+# 消息转发同步工具，并参考了线程池的实现方式提供
+# 了频道隔离功能以支持多 Minecraft 服务器
+# 和多 QQ 群之间的复杂频道分组关系的聊天记录转发
+# 功能。本程序在 mcbbs 上受到近 200 人次回复和
+# 十几名用户正面点评，并被版主授予了优质原创标签。</p>
+#                     ''',
+#                     "content_plain": None
+#                 },
                 {
 
                     "logo_src": "assets/onebot-logo.png",
@@ -193,74 +192,74 @@ DiscuzX!、Fresns、Flarum 等软件平台集成。
                 },
             ]
         },
-        {
-            "title": "项目经历",
-            "list": [
-                {
-                    "logo_src": "assets/xiaobu.png",
-                    "logo_alt": "小布",
+#        {
+#            "title": "项目经历",
+#            "list": [
+#                 {
+#                     "logo_src": "assets/xiaobu.png",
+#                     "logo_alt": "小布",
 
-                    "title": '<a href="https://system.lib.whu.edu.cn/game2018/web-mobile/index.html">武汉大学图书馆账户激活平台</a>主要协作者',
-                    "title_plain": '''武汉大学图书馆账户激活平台主要协作者<br/>
-<span>https://system.lib.whu.edu.cn/game2018/web-mobile/index.html</span>''',
+#                     "title": '<a href="https://system.lib.whu.edu.cn/game2018/web-mobile/index.html">武汉大学图书馆账户激活平台</a>主要协作者',
+#                     "title_plain": '''武汉大学图书馆账户激活平台主要协作者<br/>
+# <span>https://system.lib.whu.edu.cn/game2018/web-mobile/index.html</span>''',
 
-                    "period": None,
+#                     "period": None,
 
-                    "content": '''
-<p>武汉大学图书馆帐号在账户初始化后需要激活才
-能使用图书馆的完整功能。由于本人平日在学科专业
-中的出色表现，受到了图书馆邀请，与几位同学一同
-制作了一个可以让新生在入学后能够自助激活账户的
-平台。该平台总共服务过五万名武汉大学新生。</p>
-                    ''',
-                    "content_plain": None
-                },
-                {
+#                     "content": '''
+# <p>武汉大学图书馆帐号在账户初始化后需要激活才
+# 能使用图书馆的完整功能。由于本人平日在学科专业
+# 中的出色表现，受到了图书馆邀请，与几位同学一同
+# 制作了一个可以让新生在入学后能够自助激活账户的
+# 平台。该平台总共服务过五万名武汉大学新生。</p>
+#                     ''',
+#                     "content_plain": None
+#                 },
+#                 {
 
-                    "logo_src": "assets/mengxiangjia-logo.png",
-                    "logo_alt": "武大梦想珈",
+#                     "logo_src": "assets/mengxiangjia-logo.png",
+#                     "logo_alt": "武大梦想珈",
 
-                    "title": '武大梦想珈团队成员',
-                    "title_plain": '武大梦想珈团队成员',
+#                     "title": '武大梦想珈团队成员',
+#                     "title_plain": '武大梦想珈团队成员',
 
-                    "period": "2020年09月 至 2022年05月",
+#                     "period": "2020年09月 至 2022年05月",
 
-                    "content": '''
-<p>武大梦想珈（微信小程序）是武汉大学学生会制作的
-一款小程序，它可以方便地完成报名、举办活动、计划
-日程等工作，并且还提供了许多便利服务。
-梦想珈在 2017 年成立至今总计服务过三十四万用户，
-日均请求量达突破三万。</p>
-<p>
-本人主要负责梦想珈中的校内论坛服务的服务端部分。该服务
-深受全校师生喜爱，每日保持有数十条新帖子和百来条评论，
-成为了校园内较为受欢迎的校内社交平台。</p>
-                    ''',
-                    "content_plain": None
-                },
-                {
+#                     "content": '''
+# <p>武大梦想珈（微信小程序）是武汉大学学生会制作的
+# 一款小程序，它可以方便地完成报名、举办活动、计划
+# 日程等工作，并且还提供了许多便利服务。
+# 梦想珈在 2017 年成立至今总计服务过三十四万用户，
+# 日均请求量达突破三万。</p>
+# <p>
+# 本人主要负责梦想珈中的校内论坛服务的服务端部分。该服务
+# 深受全校师生喜爱，每日保持有数十条新帖子和百来条评论，
+# 成为了校园内较为受欢迎的校内社交平台。</p>
+#                     ''',
+#                     "content_plain": None
+#                 },
+#                 {
 
-                    "logo_src": "assets/data-transfer.svg",
-                    "logo_alt": "SudoDrive",
+#                     "logo_src": "assets/data-transfer.svg",
+#                     "logo_alt": "SudoDrive",
 
-                    "title": '<a href="https://github.com/iSudocat/SudoDrive/">SudoDrive</a>',
-                    "title_plain": '''SudoDrive <span>https://github.com/iSudocat/SudoDrive/</span>''',
+#                     "title": '<a href="https://github.com/iSudocat/SudoDrive/">SudoDrive</a>',
+#                     "title_plain": '''SudoDrive <span>https://github.com/iSudocat/SudoDrive/</span>''',
 
-                    "period": "2021年07月",
+#                     "period": "2021年07月",
 
-                    "content": '''
-<p>SudoDrive 是一款面向中小规模团体的
-公共文件存储系统（比如，一个班级的同学 或 一个小的开
-发团队等等）。我们希望能够建立一个低成本、高速度、权限
-可控、分组完善的文件存储与共享协作系统。解决在学习生活
-中遇到的文件存储和分享问题。</p>
-<p>该项目获得了 2021 年（第 14 届）中国大学生计算机
-设计大赛全国二等奖。</p>
-                    ''',
-                    "content_plain": None
-                },
-            ]
-        },
+#                     "content": '''
+# <p>SudoDrive 是一款面向中小规模团体的
+# 公共文件存储系统（比如，一个班级的同学 或 一个小的开
+# 发团队等等）。我们希望能够建立一个低成本、高速度、权限
+# 可控、分组完善的文件存储与共享协作系统。解决在学习生活
+# 中遇到的文件存储和分享问题。</p>
+# <p>该项目获得了 2021 年（第 14 届）中国大学生计算机
+# 设计大赛全国二等奖。</p>
+#                     ''',
+#                     "content_plain": None
+#                 },
+#            ]
+#        },
         {
             "title": "学科竞赛与认证",
             "list": [
@@ -314,23 +313,23 @@ DiscuzX!、Fresns、Flarum 等软件平台集成。
                     ''',
                     "content_plain": None
                 },
-                {
+#                 {
 
-                    # "logo_src": "assets/ccf-csp.png",
-                    "logo_src": None,
-                    "logo_alt": "蓝桥杯",
+#                     # "logo_src": "assets/ccf-csp.png",
+#                     "logo_src": None,
+#                     "logo_alt": "蓝桥杯",
 
-                    "title": '''蓝桥杯 第十二届 省赛一等奖''',
-                    "title_plain": None,
+#                     "title": '''蓝桥杯 第十二届 省赛一等奖''',
+#                     "title_plain": None,
 
-                    "period": "2021年04月28日",
+#                     "period": "2021年04月28日",
 
-                    "content": '''
-<p>Python 程序设计大学组 一等奖</p>
-<p>该认证为算法能力认证。</p>
-                    ''',
-                    "content_plain": None
-                },
+#                     "content": '''
+# <p>Python 程序设计大学组 一等奖</p>
+# <p>该认证为算法能力认证。</p>
+#                     ''',
+#                     "content_plain": None
+#                 },
                 {
 
                     # "logo_src": "assets/ccf-csp.png",
@@ -348,45 +347,45 @@ DiscuzX!、Fresns、Flarum 等软件平台集成。
                     ''',
                     "content_plain": None
                 },
-                {
+#                 {
 
-                    # "logo_src": "assets/ccf-csp.png",
-                    "logo_src": None,
-                    "logo_alt": "蓝桥杯",
+#                     # "logo_src": "assets/ccf-csp.png",
+#                     "logo_src": None,
+#                     "logo_alt": "蓝桥杯",
 
-                    "title": '''蓝桥杯 第十二届 国赛二等奖''',
-                    "title_plain": None,
+#                     "title": '''蓝桥杯 第十二届 国赛二等奖''',
+#                     "title_plain": None,
 
-                    "period": "2021年06月08日",
+#                     "period": "2021年06月08日",
 
-                    "content": '''
-<p>Python 程序设计大学组 二等奖</p>
-<p>该认证为算法能力认证。</p>
-                    ''',
-                    "content_plain": None
-                },
+#                     "content": '''
+# <p>Python 程序设计大学组 二等奖</p>
+# <p>该认证为算法能力认证。</p>
+#                     ''',
+#                     "content_plain": None
+#                 },
             ]
         },
         {
             "title": "其他",
             "list": [
-                {
+#                 {
 
-                    "logo_src": "assets/chatting.svg",
-                    "logo_alt": "交流",
+#                     "logo_src": "assets/chatting.svg",
+#                     "logo_alt": "交流",
 
-                    "title": '''CKYU 社区闲聊板块与开发板块板主''',
-                    "title_plain": None,
+#                     "title": '''CKYU 社区闲聊板块与开发板块板主''',
+#                     "title_plain": None,
 
-                    "period": "2018年11月 - 2020年08月",
+#                     "period": "2018年11月 - 2020年08月",
 
-                    "content": '''
-<p>CKYU 社区对汉语聊天机器人的设计与交互模式
-影响深远。在该社区 2020 年 8 月份闭站后依然
-有许多聊天机器人应用保留了 CKYU 形式的程序接口。</p>
-                    ''',
-                    "content_plain": None
-                },
+#                     "content": '''
+# <p>CKYU 社区对汉语聊天机器人的设计与交互模式
+# 影响深远。在该社区 2020 年 8 月份闭站后依然
+# 有许多聊天机器人应用保留了 CKYU 形式的程序接口。</p>
+#                     ''',
+#                     "content_plain": None
+#                 },
                 {
 
                     "logo_src": "assets/onebot-logo.png",
@@ -407,65 +406,65 @@ DiscuzX!、Fresns、Flarum 等软件平台集成。
                     ''',
                     "content_plain": None
                 },
-                {
+#                 {
 
-                    "logo_src": "assets/techo-logo.svg",
-                    "logo_alt": "Techo Logo",
+#                     "logo_src": "assets/techo-logo.svg",
+#                     "logo_alt": "Techo Logo",
 
-                    "title": '<a href="https://cloud.tencent.com/act/event/developer2020">腾讯 Techo 2020 腾讯企业级开发大赛</a>',
-                    "title_plain": '''腾讯 Techo 2020 腾讯企业级开发大赛</br>
-<span>https://cloud.tencent.com/act/event/developer2020</span>''',
+#                     "title": '<a href="https://cloud.tencent.com/act/event/developer2020">腾讯 Techo 2020 腾讯企业级开发大赛</a>',
+#                     "title_plain": '''腾讯 Techo 2020 腾讯企业级开发大赛</br>
+# <span>https://cloud.tencent.com/act/event/developer2020</span>''',
 
-                    "period": None,
+#                     "period": None,
 
-                    "content": '''
-<p>本人所在的团队获得了年度最佳技术突破奖（即第二名）。
-本人所在的团队是该场比赛中唯一获得名次的
-学生团队。</p>
-                    ''',
-                    "content_plain": None
-                },
-                {
+#                     "content": '''
+# <p>本人所在的团队获得了年度最佳技术突破奖（即第二名）。
+# 本人所在的团队是该场比赛中唯一获得名次的
+# 学生团队。</p>
+#                     ''',
+#                     "content_plain": None
+#                 },
+#                 {
 
-                    "logo_src": "assets/kubesphere-logo.svg",
-                    "logo_alt": "Kubesphere Logo",
+#                     "logo_src": "assets/kubesphere-logo.svg",
+#                     "logo_alt": "Kubesphere Logo",
 
-                    "title": 'Kubesphere 社区贡献者',
-                    "title_plain": '''Kubesphere 社区贡献者''',
+#                     "title": 'Kubesphere 社区贡献者',
+#                     "title_plain": '''Kubesphere 社区贡献者''',
 
-                    "period": None,
+#                     "period": None,
 
-                    "content": '''
-<p>在 Kubesphere 生态中活跃，并给 Kubesphere 生态提交过软件缺陷补丁。</p>
-                    ''',
-                    "content_plain": None
-                },
-                {
+#                     "content": '''
+# <p>在 Kubesphere 生态中活跃，并给 Kubesphere 生态提交过软件缺陷补丁。</p>
+#                     ''',
+#                     "content_plain": None
+#                 },
+#                 {
 
-                    "logo_src": "assets/icpc-chatting.png",
-                    "logo_alt": "交流",
+#                     "logo_src": "assets/icpc-chatting.png",
+#                     "logo_alt": "交流",
 
-                    "title": '喜欢与他人分享',
-                    "title_plain": None,
+#                     "title": '喜欢与他人分享',
+#                     "title_plain": None,
 
-                    "period": None,
+#                     "period": None,
 
-                    "content": '''
-<p>本人习惯与他人分享已掌握的技能，本人也十分懂得
-向他人学习。常活跃于开源社区，并愿意为自己
-喜欢的程序提交补丁。因而，本人也有代码也被
-一些如 Minecraft 常用插件 <a href="https://github.com/webbukkit/dynmap/">Dynmap</a>
-的仓库接受，并运行在了数千个 Minecraft 服务器上。</p>
-                    ''',
-                    "content_plain": '''
-<p>本人习惯与他人分享已掌握的技能，本人也十分懂得
-向他人学习。常活跃于开源社区，并愿意为自己
-喜欢的程序提交补丁。因而，本人也有代码也被
-一些如 Minecraft 常用插件 Dynmap 
-(github/webbukkit/dynmap) 的仓库接受，
-并运行在了数千个 Minecraft 服务器上。</p>
-'''
-                },
+#                     "content": '''
+# <p>本人习惯与他人分享已掌握的技能，本人也十分懂得
+# 向他人学习。常活跃于开源社区，并愿意为自己
+# 喜欢的程序提交补丁。因而，本人也有代码也被
+# 一些如 Minecraft 常用插件 <a href="https://github.com/webbukkit/dynmap/">Dynmap</a>
+# 的仓库接受，并运行在了数千个 Minecraft 服务器上。</p>
+#                     ''',
+#                     "content_plain": '''
+# <p>本人习惯与他人分享已掌握的技能，本人也十分懂得
+# 向他人学习。常活跃于开源社区，并愿意为自己
+# 喜欢的程序提交补丁。因而，本人也有代码也被
+# 一些如 Minecraft 常用插件 Dynmap 
+# (github/webbukkit/dynmap) 的仓库接受，
+# 并运行在了数千个 Minecraft 服务器上。</p>
+# '''
+#                 },
             ]
         },
     ]
