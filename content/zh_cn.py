@@ -33,6 +33,22 @@ content = {
             "list": [
                 {
 
+                    "logo_src": "assets/thu-logo.svg",
+                    "logo_alt": "Tsinghua University Logo",
+
+                    "title": "清华大学, 中国, 北京",
+                    "title_plain": None,
+
+                    "period": "2024年09月 至 今",
+
+                    "content": '''
+<p>主修专业：计算机科学（硕士）。</p>
+<p>方向：HPC，多机任务调度。</p>
+                    ''',
+                    "content_plain": None
+                },
+                {
+
                     "logo_src": "assets/whu-logo.svg",
                     "logo_alt": "Wuhan University Logo",
 

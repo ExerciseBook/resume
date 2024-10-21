@@ -33,6 +33,22 @@ content = {
             "list": [
                 {
 
+                    "logo_src": "assets/thu-logo.svg",
+                    "logo_alt": "Tsinghua University Logo",
+
+                    "title": "Tsinghua University, Beijing, China",
+                    "title_plain": None,
+
+                    "period": "09/2024 - now",
+
+                    "content": '''
+<p>Major: Computer Science (Master), 
+HPC</p>
+                    ''',
+                    "content_plain": None
+                },
+                {
+
                     "logo_src": "assets/whu-logo.svg",
                     "logo_alt": "Wuhan University Logo",
 
